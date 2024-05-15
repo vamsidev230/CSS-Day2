@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+
+<style>
+
+#zero{
+    margin:10px;
+    border:2px solid yellowgreen;
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+
+}
+
+#one{
+    margin:40px;
+    border:2px solid yellowgreen;
+    padding:10px;
+    height: 290px;
+    width: 290px;
+    background-color: yellowgreen;
+
+}
+
+#two{
+    margin:20px;
+    border:2px solid yellowgreen;
+    padding: 20px;
+    height:195px;
+    background-color: blue;
+}
+
+#three{
+    margin:20px;
+    border:2px solid yellowgreen;
+    padding: 20px;
+    height:120px;
+    background-color: aqua;
+}
+.container{
+    display: flex;
+    min-height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+h3{text-align:center}
+    </style>
+</head>
+<body>
+    <h3>CSS Box-Model Colors<h3>
+        <div class="container">
+        <br>
+    <div id="zero">
+    <div id="one">
+<div id="two">
+<div id="three"></div>
+</div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
